@@ -1,7 +1,7 @@
-# Utilisation de l'image officielle WordPress from docker hub
+# Utilisation de l'image officielle WordPress
 FROM wordpress:latest
 
-# Installer wp-cli( php files) pour la gestion de WordPress via la ligne de commande
+# Installer wp-cli pour la gestion de WordPress via la ligne de commande
 RUN apt-get update && apt-get install -y less
 
 # Copier les plugins ou thèmes personnalisés dans le répertoire approprié
